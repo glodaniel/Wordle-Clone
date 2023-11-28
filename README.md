@@ -13,3 +13,14 @@ Anusha Ghimirey
 
 **Question**:
 How will I be able to include colors to indicate if letters are or aren't part of the word using Python?
+
+# Status Report
+#### Glory Daniel and Anusha Ghimirey
+#### Wordle Clone
+***
+#### What have you done for your project so far?
+We have started on the HTML for the Wordle website and also on making the game itself.
+#### What have you not done for your project yet?
+We haven't figured out what we will use to add the game to the website. We also haven't used the rich library yet.
+#### What problems, if any, have you encountered?
+None so far, just minor bugs in the code.
