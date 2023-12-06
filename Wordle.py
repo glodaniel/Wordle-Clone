@@ -41,11 +41,11 @@ def play_wordle():
         guess = input("Enter your guess: ").lower()
 
         if len(guess) != len(secret_word) or not guess.isalpha():
-            print("Invalid input. Please enter a guess with the correct length.")
+            print("That is an invalid input. Please try again")
             continue
 
         if guess == secret_word:
-            print("Congratulations! You guessed the word:", secret_word)
+            print("Congrats! You guessed the word:", secret_word)
             break
         else:
             attempts += 1
@@ -56,6 +56,5 @@ def play_wordle():
 
     if attempts == max_attempts:
         print("Sorry, you ran out of attempts. The word was:", secret_word)
-
 if __name__ == "__main__":
     play_wordle()
