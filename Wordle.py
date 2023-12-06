@@ -18,11 +18,11 @@ def display_word(secret_word, guessed_word):
     displayed_word = ""
     for i in range(len(secret_word)):
         if i < len(guessed_word) and guessed_word[i] == secret_word[i]:
-            displayed_word += guessed_word[i]
+            displayed_word += f"{guessed_word[i]} "
         elif i < len(guessed_word) and guessed_word[i] in secret_word:
-            displayed_word += '*'
+            displayed_word += f"{guessed_word[i].upper()} "
         else:
-            displayed_word += '_'
+            displayed_word += "_ "
     return displayed_word
 
 def play_wordle():
