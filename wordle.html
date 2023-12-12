@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wordle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wordle.css">
+    <link rel="stylesheet" href="wordle.css"> 
+    <script src="wordle.js"></script>
+</head>
+
+<body>
+    <div id="popup-container" class="popup-container">
+        <div class="popup-content">
+            <span class="close-popup" onclick="closePopup()">&times;</span>
+            <h2>Welcome to Wordle!</h2>
+            <p>You will be given six tries to guess a five-letter word. If your letter is in the correct place, it will be blue. If it's the correct letter but in the wrong place, it will be orange. Good luck!</p>
+        </div>
+    </div>
+
+    <h1 id="title">Wordle</h1>
+    <hr>
+    <br>
+    <div id="board">
+    </div>
+
+    <br>
+    <h1 id="answer"></h1>
+
+    <script>
+        openPopup();
+    </script>
+</body>
+
+</html>
+
